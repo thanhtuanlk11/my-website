@@ -1,0 +1,181 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.chat-container {
+  display: flex;
+  width: 100%;
+  height: 86vh;
+  margin: 0 auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+.chat-container zapier-interfaces-chatbot-embed {
+  width: 100%;
+  height: calc(100% - 40px);
+  display: block;
+}
+.chat-container .chat-header {
+  display: flex;
+  align-content: center;
+  gap: 2%;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-block: 1%;
+}
+.chat-container .chat-header svg {
+  margin-left: 2%;
+  height: 30px;
+  width: 30px;
+}
+.chat-container .chat-header img {
+  width: 250px;
+  height: 70px;
+}
+.chat-container .chat-header-title {
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(105.55deg, #5b0013 -6.68%, #5b0013 43.13%, #FFB71E 96.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-left: 4%;
+}
+.chat-container .chat-header-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+  margin-right: 2%;
+}
+.chat-container .chat-header-icon .svg-container {
+  display: flex;
+  gap: 5%;
+  padding-inline: 10px;
+}
+.chat-container .chat-header-icon .svg-container svg {
+  height: 20px;
+  width: 20px;
+}
+.chat-container .chat-header-icon .svg {
+  border-right: 1px solid #ccc;
+  padding-inline: 10px;
+}
+.chat-container .chat-header-icon .svg svg {
+  height: 20px;
+  width: 20px;
+}
+.chat-container .chat-header-icon .svg:last-child {
+  border-right: 1px solid #fff !important;
+}
+.chat-container .chat-header-icon .svgno {
+  padding-inline: 10px;
+}
+.chat-container .chat-header-icon .svgno svg {
+  height: 20px;
+  width: 20px;
+}
+.chat-container .chat-header-icon .svgno:last-child {
+  border-right: 1px solid #fff !important;
+}
+.chat-container .chat-header-icon span {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.816);
+}
+.chat-container .chat-ai {
+  height: 80vh;
+}
+
+.chat-footer {
+  width: 100%;
+  display: flex;
+  padding-inline: 30px;
+  background-color: rgb(135, 14, 2);
+  height: 250px;
+  gap: 5%;
+  padding-top: 20px;
+  padding-bottom: 12%;
+}
+.chat-footer-info img {
+  width: 100%;
+  height: 150px;
+}
+.chat-footer-info p {
+  color: #fff;
+}
+.chat-footer-des {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: space-between;
+}
+.chat-footer-des-title {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: white;
+  margin-top: 2%;
+}
+.chat-footer-des-info {
+  display: flex;
+  gap: 8%;
+  margin-bottom: 4%;
+  margin-top: 20px;
+}
+.chat-footer-des-info p {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+.chat-footer-des-icon {
+  display: flex;
+  gap: 5%;
+}
+.chat-footer-des-icon a {
+  padding: 4px 4px;
+  border-radius: 10%;
+}
+.chat-footer-des-icon svg {
+  height: 30px;
+  width: 30px;
+}
+
+.chat-container {
+  display: block;
+}
+
+/* Ensure Zapier’s chatbot fits within the container */
+zapier-interfaces-chatbot-embed {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
